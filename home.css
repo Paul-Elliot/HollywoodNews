@@ -1,0 +1,8 @@
+body{
+    min-height: 150vh;
+    background: linear-gradient(#f3e699,#fdae6d);
+    margin: 0;
+    margin-right: -30px;
+    width: 100%;
+    padding: 0;
+}

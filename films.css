@@ -1,0 +1,41 @@
+body{
+    min-height: 150vh;
+    background: linear-gradient(#f3e699,#fdae6d);
+    margin: 0;
+    margin-right: -30px;
+    width: 100%;
+    padding: 0;
+}
+.container{
+    position: relative;
+    margin-top: 150px;
+    margin-left: -100px;
+    transition: 0.5s;
+    transform: rotate(-5deg) skew(5deg);
+    text-align:center;
+}
+.container img{
+    position: absolute;
+    width: 30%;
+    transition: 0.5s;
+    text-align: center;
+}
+.container:hover img:nth-child(4){
+    transform: translate(100px,-100px);
+    opacity: 1;
+}
+.container:hover img:nth-child(3){
+    transform: translate(80px,-80px);
+    opacity: 0.8;
+}
+.container:hover img:nth-child(2){
+    transform: translate(60px,-60px);
+    opacity: 0.6;
+}
+.container:hover img:nth-child(1){
+    transform: translate(40px,-40px);
+    opacity: 0.4;
+}
+.glide {
+    margin-top:300px;
+}

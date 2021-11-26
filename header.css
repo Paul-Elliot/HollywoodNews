@@ -1,0 +1,13 @@
+@font-face{
+    font-family:'chomsky';
+    src:url(fonts/chomsky.otf);
+}
+.header {
+    font-family:  chomsky;
+    font-size: 50px;
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
